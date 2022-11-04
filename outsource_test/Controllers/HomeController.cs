@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using outsource_test.Models;
 using System.Diagnostics;
+using System.Security.Cryptography.X509Certificates;
 
 namespace outsource_test.Controllers
 {
@@ -17,6 +18,12 @@ namespace outsource_test.Controllers
         {
             return View();
         }
+        //public SurveyScoreModel SurveyScore { get; set; }
+        //public IActionResult OnPost()
+        //{
+        //    if (q1a1)
+        //    return View();
+        //}
 
         public IActionResult Privacy()
         {

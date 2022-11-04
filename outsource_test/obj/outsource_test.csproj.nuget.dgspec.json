@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexv\\source\\repos\\outsource_test\\outsource_test\\outsource_test.csproj": {}
+    "C:\\Users\\Teun Hurkmans\\Documents\\GitHub\\outsourcing\\outsource_test\\outsource_test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexv\\source\\repos\\outsource_test\\outsource_test\\outsource_test.csproj": {
+    "C:\\Users\\Teun Hurkmans\\Documents\\GitHub\\outsourcing\\outsource_test\\outsource_test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexv\\source\\repos\\outsource_test\\outsource_test\\outsource_test.csproj",
+        "projectUniqueName": "C:\\Users\\Teun Hurkmans\\Documents\\GitHub\\outsourcing\\outsource_test\\outsource_test.csproj",
         "projectName": "outsource_test",
-        "projectPath": "C:\\Users\\alexv\\source\\repos\\outsource_test\\outsource_test\\outsource_test.csproj",
-        "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexv\\source\\repos\\outsource_test\\outsource_test\\obj\\",
+        "projectPath": "C:\\Users\\Teun Hurkmans\\Documents\\GitHub\\outsourcing\\outsource_test\\outsource_test.csproj",
+        "packagesPath": "C:\\Users\\Teun Hurkmans\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Teun Hurkmans\\Documents\\GitHub\\outsourcing\\outsource_test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alexv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Teun Hurkmans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -65,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
