@@ -18,12 +18,22 @@ namespace outsource_test.Controllers
         {
             return View();
         }
-        //public SurveyScoreModel SurveyScore { get; set; }
-        //public IActionResult OnPost()
-        //{
-        //    if (q1a1)
-        //    return View();
-        //}
+        public SurveyScoreModel SurveyScore { get; set; }
+        public IActionResult OnPost()
+        {
+            int leadership, overallImpression, tidiness, punctuality, happiness, discipline, creativity, ambition;
+            leadership = +Int32.Parse(Request.Form["q1"]);
+            overallImpression = +Int32.Parse(Request.Form["q2"]);
+            tidiness =+ Int32.Parse(Request.Form["q3"]);
+            punctuality = +Int32.Parse(Request.Form["q4"]);
+            happiness = +Int32.Parse(Request.Form["q5"]);
+            discipline = +Int32.Parse(Request.Form["q6"]);
+            creativity = +Int32.Parse(Request.Form["q7"]);
+            ambition = +Int32.Parse(Request.Form["q8"]);
+            leadership = +Int32.Parse(Request.Form["q9"]);
+            overallImpression = +Int32.Parse(Request.Form["q10"]);
+            return View();
+        }
 
         public IActionResult Privacy()
         {
