@@ -1,0 +1,33 @@
+MEDEWERKER TABEL AANMAKEN:
+
+CREATE TABLE `medewerker` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `voornaam` varchar(45) NOT NULL,
+  `achternaam` varchar(45) NOT NULL,
+  `score` int DEFAULT NULL,
+  `rang` int NOT NULL,
+  `gebruikersnaam` varchar(45) NOT NULL,
+  `wachtwoord` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
+MEDEWERKER TABEL VULLEN:
+
+iNSERT INTO `medewerker` VALUES (1,'admin','admin',0,1,'admin','admin'),(2,'alex','van heteren',0,1,'alexvheteren','12345'),(3,'Bert','Berten',0,0,'bertberten','bert'),(4,'Kees','Keesen',0,0,'keeskeesen','kees'),(5,'Bart','Barten',0,0,'bartbarten','bart'),(6,'Michel','Michelen',0,0,'michelmichelen','michel'),(7,'Samantha','Samanthan',0,0,'samanthasamanthan','samantha'),(8,'Nicky','Nickyen',0,0,'nickynickyen','nicky'),(9,'Robert','Roberten',0,0,'robertroberten','robert'),(10,'Jochem','Jochemen',0,0,'jochemjochemen','jochem'),(11,'Luuk','Luuken',0,0,'luukluuken','luuk'),(12,'Albertine','Albertinen',0,0,'albertinealbertinen','albertine'),(13,'Harry','Harryenm',0,0,'harryharryen','harry'),(14,'Freek','Freeken',0,0,'freekfreeken','freek'),(15,'Matthijs','Matthijsen',0,0,'mathijsmathijsen','mathijs'),(16,'Suzan','Suzanen',0,0,'suzansuzanen','suzan'),(17,'Natashia','Natashianen',0,0,'nathaschanataschanen','natascha'),(18,'Ellen','Ellenen',0,0,'ellenellenen','ellen'),(20,'Allice','Allicen',0,0,'alliceallicen','allice'),(21,'Alex','Alexen',0,0,'alexalexen','alex'),(22,'Sjors','Sjorsen',0,0,'sjorssjorsen','sjors'),(23,'Sammy','Sammyen',0,0,'sammysammyen','sammy'),(24,'Achmed','Achmeden',0,0,'achmedachmeden','achmed'),(25,'Jim','Jimen',0,0,'jimjimen','jim'),(26,'Stanley','Stanleyen',0,0,'stanleystanleyen','stanley'),(27,'Jake','Jaken',0,0,'jakejaken','jake'),(28,'Amy','Amyen',0,0,'amyamyen','amy'),(29,'Rosa','Rosaen',0,0,'rosarosaen','rosa'),(30,'Charles','Charlesen',0,0,'charlescharlesen','charles');
+
+
+REIZEN TABEL AANMAKEN:
+
+CREATE TABLE `reizen` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `afstand` varchar(45) NOT NULL,
+  `vervoer` varchar(45) NOT NULL,
+  `score` int NOT NULL,
+  `medewerker` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
+REIZEN TABEL VULLEN:
+
+INSERT INTO `reizen` VALUES (1,'34','ov',0,'3'),(2,'5','fiets',0,'4'),(3,'60','auto',0,'5'),(4,'89','auto',0,'6'),(5,'9','carpool',0,'7'),(6,'87','ov',0,'8'),(7,'4','fiets',0,'9'),(8,'124','auto',0,'10'),(9,'3','fiets',0,'11'),(10,'124','carpool',0,'12'),(11,'101','auto',0,'13'),(12,'54','auto',0,'14'),(13,'67','ov',0,'15'),(14,'6','auto',0,'16'),(15,'34','auto',0,'17'),(16,'36','auto',0,'18'),(17,'24','ov',0,'19'),(18,'21','fiets',0,'20'),(19,'45','fiets',0,'21'),(20,'2','auto',0,'22'),(21,'1','carpool',0,'23'),(22,'45','carpool',0,'24'),(23,'4','ov',0,'25'),(24,'145','ov',0,'26'),(25,'145','auto',0,'27'),(26,'6','fiets',0,'28'),(27,'23','auto',0,'29'),(28,'128','ov',0,'30'),(29,'24','auto',0,'31'),(30,'34','auto',0,'32');
+/
